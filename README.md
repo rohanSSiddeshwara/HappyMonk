@@ -17,7 +17,7 @@ Initialize the network parameters: weights and biases for the three layers (w1, 
 
 . `Perform backpropagation`: compute the gradients for the weights, biases, and Ada-Act coefficients using the output error and the activations from the hidden layers.
 
-Update the network parameters: use the computed gradients to update the weights, biases, and Ada-Act coefficients using some learning rate alpha.
+. `Update the network parameters`: use the computed gradients to update the weights, biases, and Ada-Act coefficients using some learning rate alpha.
 
 . Repeat steps 3-6 for a specified number of epochs.
 
