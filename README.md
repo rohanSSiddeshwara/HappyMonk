@@ -9,19 +9,19 @@ In this report, we will discuss the implementation details of a neural network u
 
 Initialize the network parameters: weights and biases for the three layers (w1, b1, w2, b2, w3, b3) and coefficients for the Ada-Act activation function (k). The initial values for the weights and biases can be sampled from a random distribution, such as a normal distribution with mean 0 and standard deviation 1. The initial values for the Ada-Act coefficients can be set to some small constant, such as 0.01.
 
-Preprocess the data: split the dataset into training and test sets, and standardize the features.
+. `Preprocess the data`: split the dataset into training and test sets, and standardize the features.
 
-Perform forward propagation: compute the activation values for each layer using the input data and the current network parameters.
+. `Perform forward propagation`: compute the activation values for each layer using the input data and the current network parameters.
 
-Compute the loss: use the output activation values and the true labels to compute the categorical cross-entropy loss.
+. `Compute the loss`: use the output activation values and the true labels to compute the categorical cross-entropy loss.
 
-Perform backpropagation: compute the gradients for the weights, biases, and Ada-Act coefficients using the output error and the activations from the hidden layers.
+. `Perform backpropagation`: compute the gradients for the weights, biases, and Ada-Act coefficients using the output error and the activations from the hidden layers.
 
 Update the network parameters: use the computed gradients to update the weights, biases, and Ada-Act coefficients using some learning rate alpha.
 
-Repeat steps 3-6 for a specified number of epochs.
+. Repeat steps 3-6 for a specified number of epochs.
 
-Evaluate the model: use the test set to evaluate the model's performance by computing the accuracy, confusion matrix, and classification report.
+.`Evaluate the model`: use the test set to evaluate the model's performance by computing the accuracy, confusion matrix, and classification report.
 
 ## Implementation Details:
 
